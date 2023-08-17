@@ -1,3 +1,7 @@
+# AskSQL
+
+<img src="https://media.discordapp.net/attachments/821171885638549504/1141817127855214705/image.png?width=305&height=662" />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -2,8 +2,8 @@ import {Configuration, OpenAIApi} from "openai-edge";
 
 
 class AIService {
-    private readonly api_key: string = "YOUR_API_KEY"
-    private readonly org_key: string = "YOUR_ORG_ID"
+    private readonly api_key: string = process.env.API_KEY
+    private readonly org_key: string = process.env.ORG_ID
     private readonly configuration: Configuration = new Configuration({
         organization: this.org_key,
         apiKey: this.api_key
